@@ -5,3 +5,24 @@ body {
 h1 {
   font-size: 50px;
 }
+
+.nav-bar {
+  display: flex; /* puts them in a row */
+  gap: 10px; /* space between buttons */
+  padding: 10px; /* space inside navbar */
+  justify-content: center;
+}
+
+.nav-button {
+  text-decoration: none; /* removes underline from links */
+  background-color: green; /* background color */
+  color: white; /* text color */
+  padding: 10px 15px; /* space inside the button */
+  border-radius: 5px; /* rounded buttons */
+  font-weight: bold; /* bolds text */
+  transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+  background-color: black; /* change background colour */
+}
