@@ -1,9 +1,13 @@
+html {
+  overflow-y: scroll; /* makes the vertical scrollbar always visible */
+}
+
 body {
-  font-family: Helvetica, Arial, Verdana, sans-serif;
+  font-family: Helvetica, Arial, Verdana, sans-serif; /* sets font */
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 50px; /* makes text bigger */
 }
 
 .nav-bar {

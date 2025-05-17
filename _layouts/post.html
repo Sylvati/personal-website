@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<article>
+  <h1>{{ page.title }}</h1>
+  <p><em>{{ page.date | date: "%B %-d, %Y" }}</em></p>
+  <div>{{ content }}</div>
+</article>
+
+<!-- Back link -->
+{% if page.collection == 'blog' %}
+<p><a href="/blog/">← back to blog</a></p>
+{% elsif page.collection == 'dev-blog' %}
+<p><a href="/dev-blog/">← back to dev? blog</a></p>
+{% endif %}
