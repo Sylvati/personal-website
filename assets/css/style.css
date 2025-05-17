@@ -24,7 +24,7 @@ h1 {
   padding: 10px 15px; /* space inside the button */
   border-radius: 5px; /* rounded buttons */
   font-weight: bold; /* bolds text */
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease; /* makes buttons change colour on highlight */
 }
 
 .nav-button:hover {
